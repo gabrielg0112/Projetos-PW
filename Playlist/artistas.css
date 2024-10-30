@@ -1,0 +1,65 @@
+body{
+    background-image: url(./Imagens/Fundo\ -\ Show.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:white;
+    background-attachment: fixed;
+}
+
+
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    border: solid rgb(255, 255, 255) 3px;
+    padding: 5px;
+    font-size: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    margin-top: 5px ;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.51);
+    gap: 50px;
+}
+
+
+.musica ion-icon{
+    position: absolute;
+    font-size: 50px;
+    position: fixed;
+    top: 5px;
+    left: 185px;
+    z-index: 10;
+}
+
+.artista{
+    position: absolute;
+    position: fixed;
+    top: 5px;
+    right: 150px;
+    z-index: 10;
+}
+
+.titulo2{
+    margin-top: 70px;
+}   
